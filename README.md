@@ -8,9 +8,8 @@ Due to a bug in batch files, we cannot fully automate this process, as such you 
 
 - 1. Download the latest Node.JS version
 - 2. Download .NET Core 3.1
-- 3. Run the following commands in a  command promt:
+- 3. Run the following command in an Admin Powershell and type Y:
 ```
-npm i qs axios process
-npm i -g electron
+Set-ExecutionPolicy RemoteSigned
 ```
-- 4. Finally, you can run `install.bat` and the app should start up.
+- 4. Finally, you can run the app. 
